@@ -1,6 +1,10 @@
 html, body {
   margin: 0;
   padding: 0;
+  /* stesso colore dello sfondo del canvas */
+  background: #ffffff;
+  /* il canvas è largo quanto la finestra: evita lo scorrimento orizzontale */
+  overflow-x: hidden;
 }
 
 canvas {
